@@ -2,17 +2,17 @@
 layout: post
 title: Why and how install Jeykll (Windows 10)
 ---
-<img src="/images/fulls/jekyll.jpg" class="fit image"> 
+<img src="/images/posts/Jekyll.jpg" class="fit image"> 
 
-##What is Jekyll?
+## What is Jekyll?
 
 Jekyll is static site generator. In simple words, provides the user to see as the website was stored, there isn't a database, no interaction. It is a tool to build a blog, like this one.
 
-##Why Jekyll?
+## Why Jekyll?
 
 Although Jekyll is simple to use. It is powerful and with some creativity, gives you the opportunity to do a great website. It is an open source program and the engine behind GitHub, I’ll talk about GitHub later, but for now, you have to know that GitHub allows users to host their websites.
 
-##How to install Jekyll on Windows 10?
+## How to install Jekyll on Windows 10?
 
 Yes, I know. Some people might think. Why I need a tutorial to install a simple program. The answer is: Windows isn’t supported. However, Jekyll can run on windows.
 
