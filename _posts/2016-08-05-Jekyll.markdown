@@ -1,0 +1,65 @@
+---
+layout: post
+title: Why and how install Jeykll (Windows 10)
+---
+<img src="/images/posts/jekyll.jpg" class="fit image"> 
+
+##What is Jekyll?
+
+Jekyll is static site generator. In simple words, provides the user to see as the website was stored, there isn't a database, no interaction. It is a tool to build a blog, like this one.
+
+##Why Jekyll?
+
+Although Jekyll is simple to use. It is powerful and with some creativity, gives you the opportunity to do a great website. It is an open source program and the engine behind GitHub, I’ll talk about GitHub later, but for now, you have to know that GitHub allows users to host their websites.
+
+##How to install Jekyll on Windows 10?
+
+Yes, I know. Some people might think. Why I need a tutorial to install a simple program. The answer is: Windows isn’t supported. However, Jekyll can run on windows.
+
+1 – Install a package manager called Chocolatey - https://chocolatey.org/.
+
+2 – Install Ruby via Chocolatey, open a prompt as administrator and type it: 
+
+	choco install ruby -y  
+
+3 – Download the Ruby development kit windows (http://rubyinstaller.org/downloads/ ), choose the right version for your system, 32 or 64 bits. Extract in a folder, I suggest: C:\tools\DevKit2
+
+Close the prompt and reopen in the folder that you extract, in my case: C:\tools\DevKit2; Type it: 
+
+	ruby dk.rb init
+
+4 – Into the same folder edit the file “config.yml”, include the path where Ruby was installed. Ex: -C:/tools/ruby22 (don’t forget the dash before the path)
+
+5 - Execute the command: 
+
+	ruby dk.rb install
+
+Close the command prompt and reopen (as administrator) and install Jekyll, must be the 2.4.0 version:
+
+	gem install jekyll:2.4.0
+	
+6 – Close the command prompt and reopen (as administrator) and install Bundler.
+
+	Gem install bundler
+	
+	Bundle install
+	
+7 - Close the command prompt and reopen (as administrator) and install Python.
+
+	Choco install python2
+
+8 -  Check the installation (creating a site):
+
+Close the command prompt and reopen in a folder that you want to (ex: c:\test\):
+
+Execute the commands
+
+	Jekyll new myblog
+	
+	cd c:\test\myblog
+	
+	jekyll serve
+	
+Open your browser in: http://localhost:4000/
+	
+Voila: This is your blog.
