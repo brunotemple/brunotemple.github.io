@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why and how install Jeykll (Windows 10)
+title: Why and how to install Jeykll (Windows 10)
 ---
 <img src="/images/posts/Jekyll.jpg" class="fit image"> 
 
