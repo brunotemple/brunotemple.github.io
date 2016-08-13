@@ -16,13 +16,13 @@ Although Jekyll is simple to use, it is powerful and with some creativity, gives
 
 Yes, I know what some people might think. Why I need a tutorial to install a simple program. The answer is: Windows isn’t officially supported by Jekyll. However, Jekyll can run on windows.
 
-1 – Install a package manager called Chocolatey - https://chocolatey.org/.
+1 – Install a package manager called Chocolatey, [link to Chocolatey](https://chocolatey.org/install)
 
 2 – Install Ruby via Chocolatey, open a prompt as administrator and type it: 
 
     choco install ruby -y  
 
-3 – Download the Ruby development kit windows (http://rubyinstaller.org/downloads/ ), choose the right version for your system, 32 or 64 bits. Extract it in a folder, here's my suggestion: C:\tools\DevKit2
+3 – Download the Ruby development kit windows, [link to download](http://rubyinstaller.org/downloads/) choose the right version for your system, 32 or 64 bits. Extract it in a folder, here's my suggestion: C:\tools\DevKit2
 
 Close the prompt and reopen it. Navigate to the folder where you extracted, in my case: C:\tools\DevKit2; And type: 
 
