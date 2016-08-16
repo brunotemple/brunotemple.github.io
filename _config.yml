@@ -3,7 +3,7 @@ title: Bruno Temple
 description: 'Hello, I`m Bruno Temple an engineer, someone who likes everything about technology and this is my site.'
 url: 'http://brunotemple.com'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-81849683-1'
 # disqus_shortname: 'your-disqus-name'
 
 
