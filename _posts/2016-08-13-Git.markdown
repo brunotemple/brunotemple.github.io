@@ -4,7 +4,6 @@ title: git - Installing and first steps (Windows 10)
 categories: [git]
 tags: [git]
 ---
-<img src="/images/posts/GIT.png" class="fit image">
 
 ## What is GIT?
 
@@ -22,9 +21,6 @@ How to install GIT on Windows: Download the appropriate version, [link to downlo
 
     Choose the options below.
 
-<img src="/images/posts/gitinstall.jpg" class="fit image&0.2">
-
-<img src="/images/posts/gitinstall2.jpg" class="fit image&0.2">
 
 ## How to use GIT:
 
