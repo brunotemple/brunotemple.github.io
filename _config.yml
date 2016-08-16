@@ -1,26 +1,41 @@
 # Site settings
+title: Bruno Temple
+description: 'Hello, I`m Bruno Temple an engineer, someone who likes everything about technology and this is my site.'
+url: 'http://brunotemple.com'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-title: Bruno Temple # Title of your site
-email: bruno.temple@gmail.com # Your contant email
 
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
 
-# Social links.
-# Replace the word 'example' with your username if you want to include the icon in the left sidebar
-# Delete the word 'example' if you don't want to include the icon in the left sidebar
+author:
+  name: 'Bruno Temple'
+  email: bruno.temple@gmail.com
+  twitter_username: brunotemple
+  facebook_username: bruno.temple
+  github_username:  brunotemple
+  linkedin_username:  brunotemple
 
-google_analytics: UA-81849683-1
-
-twitter_username:     brunotemple  
-github_username:      brunotemple  
-linkedin_username:    brunotemple  
-instagram_username:   brunotemple  
-facebook_username:    bruno.temple 
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

@@ -1,112 +1,16 @@
 <!DOCTYPE html>
 <html>
-  	<head>
-  		<title>Bruno Temple</title>
-  		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  		<meta name="description" content="" />
-  		<meta name="keywords" content="" />
-  		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-  		<script src="/js/jquery.min.js"></script>
-  		<script src="/js/jquery.poptrox.min.js"></script>
-  		<script src="/js/skel.min.js"></script>
-  		<script src="/js/init.js"></script>
-  		<noscript>
-  			<link rel="stylesheet" href="/css/skel.css" />
-  			<link rel="stylesheet" href="/css/style.css" />
-  			<link rel="stylesheet" href="/css/style-xlarge.css" />
-  		</noscript>
-  		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-  	</head>
+  {% include head.html %}
 
-	<body id="top">
+  <body>
+    {% include header.html %}
 
-      <header id="header">
-          <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
-          <h1><strong>Hello, I'm <a href="/">Bruno Temple</a></strong><br />
-          an engineer, someone who likes everything about technology<br />
-          and this is my site.</h1>
-      </header>
-
-
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
         {{ content }}
+      </div>
 
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
-
-              {% if site.github_username %}
-              <li>
-                <a href="https://github.com/{{ site.github_username }}" class="icon fa-github">
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.twitter_username %}
-              <li>
-                <a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
-                  <span class="label">Twitter</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.linkedin_username %}
-              <li>
-                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin">
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.google_plus_username %}
-              <li>
-                <a href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus">
-                  <span class="label">Google+</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.facebook_username %}
-              <li>
-                <a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook">
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.dribbble_username %}
-              <li>
-                <a href="#" class="icon fa-dribbble">
-                  <span class="label">Dribbble</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.email %}
-              <li>
-                <a href="mailto:{{ site.email }}" class="icon fa-envelope-o">
-                  <span class="label">Email</span>
-                </a>
-              </li>
-              {% endif %}
-            </ul>
-            <ul class="copyright">
-                <li>Bruno Temple © 2016 • All rights reserved.</li>
-				<li>Soli Deo gloria.</li>				
-            </ul>
-        </footer>
-		
-		<!-- Google Analytics -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-81849683-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		<!-- End Google Analytics -->
-
-	</body>
+      {% include footer.html %}
+    </div>
+  </body>
 </html>
