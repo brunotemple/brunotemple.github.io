@@ -4,7 +4,6 @@ title: Why and how to install Jeykll (Windows 10)
 categories: [jekyll]
 tags: [jekyll]
 ---
-<img src="/images/posts/Jekyll.jpg" class="fit image">
 
 ## What is Jekyll?
 
