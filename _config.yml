@@ -32,10 +32,17 @@ markdown: kramdown
 highlighter: rouge
 
 kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
   hard_wrap: false
+  kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+  input: GFM
+  syntax_highlighter: rouge
+  
+  
 
 gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

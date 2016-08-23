@@ -1438,8 +1438,9 @@ i {
 .post-list__post-title {
 	margin-top: 0;
 	margin-bottom: .2em;
-	font-size: 1.5em;
-	line-height: 1.3em; }
+	font-size: 2.2em;
+  font-style: italic;
+	line-height: 1.0em; }
 	.post-list__post-title a {
 		color: #333333; }
 		.post-list__post-title a:hover {
