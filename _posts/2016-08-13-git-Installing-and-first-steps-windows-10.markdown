@@ -84,7 +84,4 @@ So, this test shows you how to create a new branch, and it is useful to version 
     git checkout master
     git merge test01
 
-
-
 [git download]: https://git-scm.com/downloads
-S
