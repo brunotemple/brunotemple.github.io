@@ -1,8 +1,9 @@
 ---
 layout: post
 title: git - Installing and first steps (Windows 10)
-categories: [git]
-tags: [install git windows first steps]
+categories: git
+tags: [git]
+date: 2016-08-13
 ---
 
 ### What is GIT?
