@@ -2,7 +2,7 @@
 layout: post
 title: Why and how to install Jeykll (Windows 10)
 categories: [jekyll]
-tags: [jekyll]
+tags: [install jekyll windows]
 ---
 
 ### What is Jekyll?
