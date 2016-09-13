@@ -2,8 +2,7 @@
 layout: post
 title: JavaScript Fundamentals - Prototypes and Chain.
 categories: [JavaScript Fundamentals]
-tags: [JavaScript, Prototypes]
-date: 2016-09-13
+tags: [JavaScript Prototypes]
 ---
 
 ### Prototype concept.
