@@ -42,7 +42,7 @@ function Car(brand, model, color) {
 When I create a new object using that prototype, the new object will inherit all the properties from the Car prototype.
 
 ``` js
-var dreamCar = new Car(“Nissan”,”Skyline”,”Blue”); 
+var dreamCar = new Car("Nissan","Skyline","Blue"); 
 
 console.log(dreamCar.brand); // Nissan
 ```
