@@ -5,7 +5,7 @@ categories: [C# MVC Fundamentals]
 tags: [C# MVC ASP.Net Complex View]
 ---
 
-###Passing a complex list to a view.
+### Passing a complex list to a view.
 
 Recently I had to deal with a necessity to passing a complex list to a view.
 
