@@ -20,7 +20,7 @@ How to install GIT on Windows: Download the appropriate version, [link to downlo
 
     Execute the “.exe” file.
 
-    Choose the options below.
+Choose the option: "Use Git from the Windows Command Prompt" 
 
 
 ### How to use GIT:
